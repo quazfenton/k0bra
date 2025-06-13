@@ -39,5 +39,6 @@ export interface Vibe {
         parentVibeIds: string[]; // IDs of Vibes this Vibe was woven from
         resonanceScore: number; // Accumulated private resonance (influences propagation)
         generation: number; // How many times this Vibe has been blended/re-woven
+        lastResonatedAt: number; // Timestamp of the last time this Vibe was resonated with
     };
 }
