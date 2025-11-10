@@ -1,0 +1,79 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: k0bra-projects-pvc
+  namespace: k0bra-system
+spec:
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: nfs-client
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: redis-pvc
+  namespace: k0bra-system
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
+  storageClassName: fast-ssd
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: build-cache-pvc
+  namespace: k0bra-system
+spec:
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 50Gi
+  storageClassName: nfs-client
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-cache-config
+  namespace: k0bra-system
+data:
+  nginx.conf: |
+    events {
+        worker_connections 1024;
+    }
+    http {
+        proxy_cache_path /var/cache/nginx levels=1:2 keys_zone=build_cache:100m 
+                         max_size=10g inactive=60m use_temp_path=off;
+        
+        upstream build_cache_backend {
+            server localhost:5003;
+        }
+        
+        server {
+            listen 8080;
+            
+            location /cache/ {
+                proxy_pass http://build_cache_backend/;
+                proxy_cache build_cache;
+                proxy_cache_valid 200 60m;
+                proxy_cache_valid 404 1m;
+                proxy_cache_key "$request_uri";
+                
+                add_header X-Cache-Status $upstream_cache_status;
+                add_header X-Cache-Key "$request_uri";
+                
+                client_max_body_size 1G;
+            }
+            
+            location /health {
+                return 200 "OK";
+                add_header Content-Type text/plain;
+            }
+        }
+    }

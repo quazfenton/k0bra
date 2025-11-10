@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Function to fetch projects from the server
+        async function fetchProjects() {
+            const response = await fetch('/projects.json');
+            return await response.json();
+        }
+
+        // Function to render projects
+        function renderProjects(projects) {
+            const container = document.getElementById('projects-container');
+            container.innerHTML = ''; // Clear current content
+
+            projects.forEach(project => {
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-lg shadow-md p-4';
+                card.innerHTML = `
+                    <h3 class="text-xl font-bold">${project.name}</h3>
+                    <p>${project.description || 'No description available'}</p>
+                    <a href="${project.path}" class="text-blue-500 hover:underline">Open Project</a>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Initial load and periodic refresh
+        async function loadProjects() {
+            const projects = await fetchProjects();
+            renderProjects(projects);
+        }
+
+        // Refresh every 30 seconds
+        setInterval(loadProjects, 30000);
+
+        // Initial load
+        document.addEventListener('DOMContentLoaded', loadProjects);
+    </script>
+</head>
+<body class="bg-gray-100 p-8">
+    <h1 class="text-3xl font-bold mb-6">Project Dashboard</h1>
+    <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+</body>
+</html>

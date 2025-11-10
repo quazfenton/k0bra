@@ -1,0 +1,100 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: screenshot-service
+  namespace: k0bra-system
+  labels:
+    app: screenshot-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: screenshot-service
+  template:
+    metadata:
+      labels:
+        app: screenshot-service
+    spec:
+      containers:
+      - name: screenshot-service
+        image: k0bra/screenshot-service:latest
+        ports:
+        - containerPort: 5005
+        env:
+        - name: DISPLAY
+          value: ":99"
+        - name: CHROME_BIN
+          value: "/usr/bin/chromium-browser"
+        - name: CHROME_PATH
+          value: "/usr/bin/chromium-browser"
+        volumeMounts:
+        - name: screenshots-volume
+          mountPath: /tmp/screenshots
+        - name: shm-volume
+          mountPath: /dev/shm
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+        securityContext:
+          runAsNonRoot: true
+          runAsUser: 1000
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5005
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 5005
+          initialDelaySeconds: 10
+          periodSeconds: 5
+      - name: xvfb
+        image: selenium/standalone-chrome:latest
+        env:
+        - name: DISPLAY
+          value: ":99"
+        - name: SCREEN_WIDTH
+          value: "1920"
+        - name: SCREEN_HEIGHT
+          value: "1080"
+        - name: SCREEN_DEPTH
+          value: "24"
+        volumeMounts:
+        - name: shm-volume
+          mountPath: /dev/shm
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+      volumes:
+      - name: screenshots-volume
+        emptyDir: {}
+      - name: shm-volume
+        emptyDir:
+          medium: Memory
+          sizeLimit: 2Gi
+      nodeSelector:
+        k0bra.io/screenshot-enabled: "true"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: screenshot-service
+  namespace: k0bra-system
+spec:
+  selector:
+    app: screenshot-service
+  ports:
+  - port: 5005
+    targetPort: 5005
+    protocol: TCP
+  type: ClusterIP

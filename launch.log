@@ -1,0 +1,3156 @@
+
+Thu Jun  5 07:48:59 PM EDT 2025 - Launching project at gradientBG
+Opening static project at gradientBG
+Thu Jun  5 07:49:07 PM EDT 2025 - Launching project at mario
+Opening static project at mario
+Thu Jun  5 07:49:11 PM EDT 2025 - Launching project at Macrodata-Refinement
+Opening static project at Macrodata-Refinement
+Thu Jun  5 07:49:14 PM EDT 2025 - Launching project at DAOr1
+Opening static project at DAOr1
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+Thu Jun  5 07:49:30 PM EDT 2025 - Project launch completed
+Thu Jun  5 07:49:30 PM EDT 2025 - Project launch completed
+Thu Jun  5 07:49:30 PM EDT 2025 - Project launch completed
+Thu Jun  5 07:49:30 PM EDT 2025 - Project launch completed
+Thu Jun  5 07:55:15 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, using available port 3004 instead.
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3004
+   - Network:      http://192.168.12.112:3004
+
+ ✓ Starting...
+ ✓ Ready in 9.4s
+[?25h
+Thu Jun  5 07:57:27 PM EDT 2025 - Project launch completed
+Thu Jun  5 08:05:56 PM EDT 2025 - Launching project at gradientBG
+Opening static project at gradientBG
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+Thu Jun  5 08:06:02 PM EDT 2025 - Project launch completed
+Thu Jun  5 08:06:07 PM EDT 2025 - Launching project at mario
+Opening static project at mario
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+Thu Jun  5 08:06:15 PM EDT 2025 - Project launch completed
+Thu Jun  5 08:06:45 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+Thu Jun  5 08:06:53 PM EDT 2025 - Launching project at 000
+Opening static project at 000
+Thu Jun  5 08:06:59 PM EDT 2025 - Launching project at starWarsSwitch
+Opening static project at starWarsSwitch
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+Thu Jun  5 08:07:08 PM EDT 2025 - Project launch completed
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+Thu Jun  5 08:07:08 PM EDT 2025 - Project launch completed
+ ⚠ Port 3000 is in use, using available port 3004 instead.
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3004
+   - Network:      http://192.168.12.112:3004
+
+ ✓ Starting...
+ ✓ Ready in 24.5s
+[?25h
+Thu Jun  5 08:09:52 PM EDT 2025 - Project launch completed
+[?25h
+Thu Jun  5 10:12:52 PM EDT 2025 - Launching project at Macrodata-Refinement
+Opening static project at Macrodata-Refinement
+Thu Jun  5 10:12:52 PM EDT 2025 - Project launch completed
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+Thu Jun  5 10:13:04 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+Thu Jun  5 10:13:04 PM EDT 2025 - Project launch completed
+Thu Jun  5 10:13:10 PM EDT 2025 - Launching project at gradientBG
+Opening static project at gradientBG
+Thu Jun  5 10:13:10 PM EDT 2025 - Project launch completed
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib64/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib64/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 1314, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.13/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 7.9s
+[?25h
+Thu Jun  5 10:56:48 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+Thu Jun  5 10:56:48 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 13.5s
+[?25h
+Thu Jun  5 11:11:07 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+Thu Jun  5 11:11:07 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 12.3s
+[?25h
+Thu Jun  5 11:25:47 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+Thu Jun  5 11:25:48 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 9.5s
+[?25h
+Thu Jun  5 11:29:49 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+Thu Jun  5 11:29:49 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 17.4s
+[?25h
+Thu Jun  5 11:37:12 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+Thu Jun  5 11:37:12 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 7s
+Thu Jun  5 11:42:28 PM EDT 2025 - Launching project at poolAmazono3
+Starting Node project at poolAmazono3
+Thu Jun  5 11:42:29 PM EDT 2025 - Project launch completed
+[?25h
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 9.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.3s (366 modules)
+ GET / 200 in 4104ms
+ GET / 200 in 930ms
+ GET / 200 in 605ms
+ GET / 200 in 315ms
+Fri Jun  6 12:50:34 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 12:50:34 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 9.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s (366 modules)
+ GET / 200 in 3005ms
+ ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 233ms
+[?25h
+Fri Jun  6 03:10:31 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:32 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:10:35 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:35 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:10:35 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:35 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Fri Jun  6 03:10:36 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:36 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:10:36 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:36 AM EDT 2025 - Project launch completed
+Fri Jun  6 03:10:36 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:36 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:10:45 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:45 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Fri Jun  6 03:10:45 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:46 AM EDT 2025 - Project launch completed
+Fri Jun  6 03:10:46 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:10:46 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:13:38 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:13:38 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:13:39 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:13:39 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Fri Jun  6 03:13:40 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:13:40 AM EDT 2025 - Project launch completed
+error: option '-p, --port <port>' argument missing
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:13:45 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 03:13:45 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 03:14:23 AM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Fri Jun  6 03:14:23 AM EDT 2025 - Project launch completed
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T07_14_23_849Z-debug-0.log
+Fri Jun  6 03:14:25 AM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Fri Jun  6 03:14:25 AM EDT 2025 - Project launch completed
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T07_14_25_239Z-debug-0.log
+Fri Jun  6 03:14:28 AM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Fri Jun  6 03:14:28 AM EDT 2025 - Project launch completed
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite --port
+
+file:///home/admin/0code/00koder/playmate-Matchup-main/node_modules/vite/dist/node/cli.js:457
+          throw new CACError(`option \`${option.rawName}\` value is missing`);
+                ^
+
+CACError: option `--port <port>` value is missing
+    at Command.checkOptionValue (file:///home/admin/0code/00koder/playmate-Matchup-main/node_modules/vite/dist/node/cli.js:457:17)
+    at CAC.runMatchedCommand (file:///home/admin/0code/00koder/playmate-Matchup-main/node_modules/vite/dist/node/cli.js:643:13)
+    at CAC.parse (file:///home/admin/0code/00koder/playmate-Matchup-main/node_modules/vite/dist/node/cli.js:581:12)
+    at file:///home/admin/0code/00koder/playmate-Matchup-main/node_modules/vite/dist/node/cli.js:914:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:263:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:540:24)
+
+Node.js v20.19.2
+Fri Jun  6 03:20:43 AM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Fri Jun  6 03:20:44 AM EDT 2025 - Project launch completed
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T07_20_46_500Z-debug-0.log
+Fri Jun  6 04:58:13 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 04:58:13 AM EDT 2025 - Project launch completed
+Fri Jun  6 04:58:13 AM EDT 2025 - Launching project at poolAmazono3
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Starting nextjs project at poolAmazono3
+Fri Jun  6 04:58:13 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Fri Jun  6 04:58:14 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 04:58:14 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Fri Jun  6 04:58:14 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 04:58:14 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Fri Jun  6 04:58:14 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 04:58:14 AM EDT 2025 - Project launch completed
+error: option '-p, --port <port>' argument missing
+error: option '-p, --port <port>' argument missing
+error: option '-p, --port <port>' argument missing
+error: option '-p, --port <port>' argument missing
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 05:03:00 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 05:03:00 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 05:05:53 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 05:05:53 AM EDT 2025 - Project launch completed
+Fri Jun  6 05:05:53 AM EDT 2025 - Launching project at poolAmazono3
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+Starting nextjs project at poolAmazono3
+Fri Jun  6 05:05:53 AM EDT 2025 - Project launch completed
+error: option '-p, --port <port>' argument missing
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 05:06:06 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 05:06:06 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port
+
+error: option '-p, --port <port>' argument missing
+Fri Jun  6 05:15:35 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+Fri Jun  6 05:15:36 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+Fri Jun  6 05:15:36 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+Fri Jun  6 05:15:36 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+Fri Jun  6 05:23:36 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 3000 for project poolAmazono3
+Fri Jun  6 05:23:36 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 6.5s
+[?25h
+Fri Jun  6 05:47:06 AM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 3000 for project playmate-Matchup-main
+Fri Jun  6 05:47:07 AM EDT 2025 - Project launch completed
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite --port 3000
+
+Re-optimizing dependencies because vite config has changed
+
+  VITE v5.4.10  ready in 14142 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.12.112:3000/
+  ➜  Network: http://10.2.0.2:3000/
+Error:   Failed to scan for dependencies from entries:
+  /home/admin/0code/00koder/playmate-Matchup-main/index.html
+
+  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mUnexpected "{"[0m
+
+    src/pages/Index.tsx:102:39:
+[37m      102 │ ...electedPlayer(playerId);import [32m{[37m DragDropContext } from '@hell...
+          ╵                                   [32m^[0m
+
+
+    at failureErrorWithLog (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:1472:15)
+    at /home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:945:25
+    at runOnEndCallbacks (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:1315:45)
+    at buildResponseToResult (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:943:7)
+    at /home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:954:54)
+    at handleRequest (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:647:17)
+    at handleIncomingPacket (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:672:7)
+    at Socket.readFromStdout (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:600:7)
+Fri Jun  6 06:07:13 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 3000 for project poolAmazono3
+Fri Jun  6 06:07:14 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 11s
+[?25h
+Fri Jun  6 09:24:22 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 3000 for project poolAmazono3
+Fri Jun  6 09:24:22 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 6.6s
+[?25h
+Fri Jun  6 10:09:43 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 4010 for project poolAmazono3
+Fri Jun  6 10:09:44 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 4010
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::4010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::4010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4010
+}
+[?25h
+Fri Jun  6 10:10:54 AM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 3011 for project playmate-Matchup-main
+Fri Jun  6 10:10:54 AM EDT 2025 - Project launch completed
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite --port 3011
+
+
+  VITE v5.4.10  ready in 2022 ms
+
+  ➜  Local:   http://localhost:3011/
+  ➜  Network: http://192.168.12.112:3011/
+Fri Jun  6 10:11:01 AM EDT 2025 - Launching project at partiFul  funScedDuleR
+Starting node project at partiFul  funScedDuleR
+Allocated port 3012 for project partiFul  funScedDuleR
+Fri Jun  6 10:11:01 AM EDT 2025 - Project launch completed
+
+> event-recommendation-backend@1.0.0 dev
+> nodemon server.js --port 3012
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js --port 3012`[39m
+Fri Jun  6 10:11:06 AM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3013 for project convo-UI
+Fri Jun  6 10:11:06 AM EDT 2025 - Project launch completed
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T14_11_06_268Z-debug-0.log
+node:fs:574
+  return binding.open(
+                 ^
+
+Error: ENOENT: no such file or directory, open '/etc/letsencrypt/live/example.com/privkey.pem'
+    at Object.openSync (node:fs:574:18)
+    at Object.readFileSync (node:fs:453:35)
+    at Object.<anonymous> (/home/admin/0code/00koder/partiFul  funScedDuleR/server.js:11:11)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/etc/letsencrypt/live/example.com/privkey.pem'
+}
+
+Node.js v20.19.2
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+Error:   Failed to scan for dependencies from entries:
+  /home/admin/0code/00koder/playmate-Matchup-main/index.html
+
+  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mUnexpected "{"[0m
+
+    src/pages/Index.tsx:102:39:
+[37m      102 │ ...electedPlayer(playerId);import [32m{[37m DragDropContext } from '@hell...
+          ╵                                   [32m^[0m
+
+
+    at failureErrorWithLog (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:1472:15)
+    at /home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:945:25
+    at runOnEndCallbacks (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:1315:45)
+    at buildResponseToResult (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:943:7)
+    at /home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:954:54)
+    at handleRequest (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:647:17)
+    at handleIncomingPacket (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:672:7)
+    at Socket.readFromStdout (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:600:7)
+Fri Jun  6 10:58:43 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 4010 for project poolAmazono3
+Fri Jun  6 10:58:46 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 4010
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::4010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::4010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4010
+}
+[?25h
+Fri Jun  6 11:22:31 AM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 4010 for project poolAmazono3
+Fri Jun  6 11:22:33 AM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 4010
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::4010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::4010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4010
+}
+[?25h
+Fri Jun  6 11:22:47 AM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3011 for project convo-UI
+Fri Jun  6 11:22:47 AM EDT 2025 - Project launch completed
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T15_22_47_432Z-debug-0.log
+Fri Jun  6 11:22:53 AM EDT 2025 - Launching project at partiFul  funScedDuleR
+Starting node project at partiFul  funScedDuleR
+Allocated port 3012 for project partiFul  funScedDuleR
+Fri Jun  6 11:22:53 AM EDT 2025 - Project launch completed
+
+> event-recommendation-backend@1.0.0 dev
+> nodemon server.js --port 3012
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js --port 3012`[39m
+node:fs:574
+  return binding.open(
+                 ^
+
+Error: ENOENT: no such file or directory, open '/etc/letsencrypt/live/example.com/privkey.pem'
+    at Object.openSync (node:fs:574:18)
+    at Object.readFileSync (node:fs:453:35)
+    at Object.<anonymous> (/home/admin/0code/00koder/partiFul  funScedDuleR/server.js:11:11)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/etc/letsencrypt/live/example.com/privkey.pem'
+}
+
+Node.js v20.19.2
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+Fri Jun  6 12:14:52 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 4010 for project poolAmazono3
+Fri Jun  6 12:14:53 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev --port 4010
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::4010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::4010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4010
+}
+[?25h
+Fri Jun  6 12:15:37 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+Allocated port 3011 for project windsurf apiModular 
+Fri Jun  6 12:15:37 PM EDT 2025 - Project launch completed
+
+> api-gui-platform@1.0.0 dev
+> concurrently "cd frontend && npm start" "cd backend && nodemon server.js" --port 3011
+
+[0] 
+[0] > api-gui-platform@1.0.0 start
+[0] > node backend/server.js
+[0] 
+Fri Jun  6 12:15:46 PM EDT 2025 - Launching project at partiFul  funScedDuleR
+Starting node project at partiFul  funScedDuleR
+Allocated port 3012 for project partiFul  funScedDuleR
+Fri Jun  6 12:15:46 PM EDT 2025 - Project launch completed
+
+> event-recommendation-backend@1.0.0 dev
+> nodemon server.js --port 3012
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js --port 3012`[39m
+Fri Jun  6 12:15:52 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3013 for project convo-UI
+Fri Jun  6 12:15:53 PM EDT 2025 - Project launch completed
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T16_15_53_114Z-debug-0.log
+node:fs:574
+  return binding.open(
+                 ^
+
+Error: ENOENT: no such file or directory, open '/etc/letsencrypt/live/example.com/privkey.pem'
+    at Object.openSync (node:fs:574:18)
+    at Object.readFileSync (node:fs:453:35)
+    at Object.<anonymous> (/home/admin/0code/00koder/partiFul  funScedDuleR/server.js:11:11)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/etc/letsencrypt/live/example.com/privkey.pem'
+}
+
+Node.js v20.19.2
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[1] [33m[nodemon] 3.1.10[39m
+[1] [33m[nodemon] to restart at any time, enter `rs`[39m
+[1] [33m[nodemon] watching path(s): *.*[39m
+[1] [33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[1] [32m[nodemon] starting `node server.js`[39m
+Fri Jun  6 12:16:00 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 3014 for project playmate-Matchup-main
+Fri Jun  6 12:16:00 PM EDT 2025 - Project launch completed
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite --port 3014
+
+
+  VITE v5.4.10  ready in 3143 ms
+
+  ➜  Local:   http://localhost:3014/
+  ➜  Network: http://192.168.12.112:3014/
+  ➜  Network: http://10.2.0.2:3014/
+Error:   Failed to scan for dependencies from entries:
+  /home/admin/0code/00koder/playmate-Matchup-main/index.html
+
+  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mUnexpected "{"[0m
+
+    src/pages/Index.tsx:102:39:
+[37m      102 │ ...electedPlayer(playerId);import [32m{[37m DragDropContext } from '@hell...
+          ╵                                   [32m^[0m
+
+
+    at failureErrorWithLog (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:1472:15)
+    at /home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:945:25
+    at runOnEndCallbacks (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:1315:45)
+    at buildResponseToResult (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:943:7)
+    at /home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:954:54)
+    at handleRequest (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:647:17)
+    at handleIncomingPacket (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:672:7)
+    at Socket.readFromStdout (/home/admin/0code/00koder/playmate-Matchup-main/node_modules/esbuild/lib/main.js:600:7)
+12:16:13 PM [vite] Pre-transform error:   [31mx[0m 'import', and 'export' cannot be used outside of module code
+     ,-[[36;1;4m/home/admin/0code/00koder/playmate-Matchup-main/src/pages/Index.tsx[0m:102:1]
+ [2m 99[0m |   const currentFormation = formations[formation];
+ [2m100[0m | 
+ [2m101[0m |   const handlePlayerClick = (playerId: number) => {
+ [2m102[0m |     setSelectedPlayer(playerId);import { DragDropContext } from '@hello-pangea/dnd';
+     : [35;1m                                ^^^^^^[0m
+ [2m103[0m |     
+ [2m104[0m |     const Index = () => {
+ [2m105[0m |       // ...
+     `----
+
+
+Caused by:
+    Syntax Error
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+12:16:15 PM [vite] Internal server error:   [31mx[0m 'import', and 'export' cannot be used outside of module code
+     ,-[[36;1;4m/home/admin/0code/00koder/playmate-Matchup-main/src/pages/Index.tsx[0m:102:1]
+ [2m 99[0m |   const currentFormation = formations[formation];
+ [2m100[0m | 
+ [2m101[0m |   const handlePlayerClick = (playerId: number) => {
+ [2m102[0m |     setSelectedPlayer(playerId);import { DragDropContext } from '@hello-pangea/dnd';
+     : [35;1m                                ^^^^^^[0m
+ [2m103[0m |     
+ [2m104[0m |     const Index = () => {
+ [2m105[0m |       // ...
+     `----
+
+
+Caused by:
+    Syntax Error
+  Plugin: vite:react-swc
+  File: /home/admin/0code/00koder/playmate-Matchup-main/src/pages/Index.tsx
+  
+[0] Web3 initialized successfully
+[1] Web3 initialized successfully
+[1] Server running on port 5000
+[0] node:events:502
+[0]       throw er; // Unhandled 'error' event
+[0]       ^
+[0] 
+[0] Error: listen EADDRINUSE: address already in use :::5000
+[0]     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+[0]     at listenInCluster (node:net:1965:12)
+[0]     at Server.listen (node:net:2067:7)
+[0]     at Function.listen (/home/admin/0code/00koder/windsurf apiModular /node_modules/express/lib/application.js:635:24)
+[0]     at Object.<anonymous> (/home/admin/0code/00koder/windsurf apiModular /backend/server.js:26:5)
+[0]     at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[0]     at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+[0]     at Module.load (node:internal/modules/cjs/loader:1275:32)
+[0]     at Module._load (node:internal/modules/cjs/loader:1096:12)
+[0]     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+[0] Emitted 'error' event on Server instance at:
+[0]     at emitErrorNT (node:net:1944:8)
+[0]     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+[0]   code: 'EADDRINUSE',
+[0]   errno: -98,
+[0]   syscall: 'listen',
+[0]   address: '::',
+[0]   port: 5000
+[0] }
+[0] 
+[0] Node.js v20.19.2
+[0] cd frontend && npm start exited with code 1
+[1] cd backend && nodemon server.js exited with code 130
+Fri Jun  6 12:44:10 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 4010 for project convo-UI
+Fri Jun  6 12:44:10 PM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+Something is already running on port 4010.
+Fri Jun  6 12:49:09 PM EDT 2025 - Launching project at poolAmazono3
+Fri Jun  6 12:49:09 PM EDT 2025 - Launching project at poolAmazono3
+Starti[ng nextjs project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 12:49:12 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 4010 for project poolAmazono3
+Allocated port 4010 for project poolAmazono3
+Allocated port 4010 for project poolAmazono3
+Fri Jun  6 12:49:13 PM EDT 2025 - Project launch completed
+Fri Jun  6 12:49:13 PM EDT 2025 - Project launch completed
+Fri Jun  6 12:49:13 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+
+> order-pooling-app@1.0.0 dev
+> next dev
+
+ ⨯ Failed to start server
+ ⨯ Failed to start server
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::4010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::4010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4010
+}
+Error: listen EADDRINUSE: address already in use :::4010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::4010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4010
+}
+Error: listen EADDRINUSE: address already in use :::4010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::4010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4010
+}
+[?25h[?25h
+
+[?25h
+Fri Jun  6 12:49:53 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 4011 for project convo-UI
+Fri Jun  6 12:49:53 PM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+(node:35722) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:35722) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view ai-convo-ui in the browser.
+
+  Local:            http://localhost:4011
+  On Your Network:  http://192.168.12.112:4011
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+ERROR in src/hooks/useConversation.ts:6:26
+TS7006: Parameter 'message' implicitly has an 'any' type.
+    4 |     const [messages, setMessages] = useState([]);
+    5 |     
+  > 6 |     const sendMessage = (message) => {
+      |                          ^^^^^^^
+    7 |         setMessages((prevMessages) => [...prevMessages, { text: message, sender: 'user' }]);
+    8 |         // Simulate AI response
+    9 |         setTimeout(() => {
+
+ERROR in src/hooks/useConversation.ts:7:21
+TS2345: Argument of type '(prevMessages: never[]) => { text: any; sender: string; }[]' is not assignable to parameter of type 'SetStateAction<never[]>'.
+  Type '(prevMessages: never[]) => { text: any; sender: string; }[]' is not assignable to type '(prevState: never[]) => never[]'.
+    Type '{ text: any; sender: string; }[]' is not assignable to type 'never[]'.
+      Type '{ text: any; sender: string; }' is not assignable to type 'never'.
+     5 |     
+     6 |     const sendMessage = (message) => {
+  >  7 |         setMessages((prevMessages) => [...prevMessages, { text: message, sender: 'user' }]);
+       |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     8 |         // Simulate AI response
+     9 |         setTimeout(() => {
+    10 |             setMessages((prevMessages) => [...prevMessages, { text: `AI: ${message}`, sender: 'ai' }]);
+
+ERROR in src/hooks/useConversation.ts:10:25
+TS2345: Argument of type '(prevMessages: never[]) => { text: string; sender: string; }[]' is not assignable to parameter of type 'SetStateAction<never[]>'.
+  Type '(prevMessages: never[]) => { text: string; sender: string; }[]' is not assignable to type '(prevState: never[]) => never[]'.
+    Type '{ text: string; sender: string; }[]' is not assignable to type 'never[]'.
+      Type '{ text: string; sender: string; }' is not assignable to type 'never'.
+     8 |         // Simulate AI response
+     9 |         setTimeout(() => {
+  > 10 |             setMessages((prevMessages) => [...prevMessages, { text: `AI: ${message}`, sender: 'ai' }]);
+       |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    11 |         }, 1000);
+    12 |     };
+    13 |
+
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Fri Jun  6 01:06:15 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+Allocated port 4012 for project windsurf apiModular 
+Fri Jun  6 01:06:16 PM EDT 2025 - Project launch completed
+
+> api-gui-platform@1.0.0 dev
+> concurrently "cd frontend && npm start" "cd backend && nodemon server.js" --port 4012 --host 0.0.0.0
+
+[0] 
+[0] > api-gui-platform@1.0.0 start
+[0] > node backend/server.js
+[0] 
+[1] [33m[nodemon] 3.1.10[39m
+[1] [33m[nodemon] to restart at any time, enter `rs`[39m
+[1] [33m[nodemon] watching path(s): *.*[39m
+[1] [33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[1] [32m[nodemon] starting `node server.js`[39m
+[0] Web3 initialized successfully
+[1] Web3 initialized successfully
+[0] Server running on port 5000
+[1] node:events:502
+[1]       throw er; // Unhandled 'error' event
+[1]       ^
+[1] 
+[1] Error: listen EADDRINUSE: address already in use :::5000
+[1]     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+[1]     at listenInCluster (node:net:1965:12)
+[1]     at Server.listen (node:net:2067:7)
+[1]     at Function.listen (/home/admin/0code/00koder/windsurf apiModular /node_modules/express/lib/application.js:635:24)
+[1]     at Object.<anonymous> (/home/admin/0code/00koder/windsurf apiModular /backend/server.js:26:5)
+[1]     at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[1]     at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+[1]     at Module.load (node:internal/modules/cjs/loader:1275:32)
+[1]     at Module._load (node:internal/modules/cjs/loader:1096:12)
+[1]     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+[1] Emitted 'error' event on Server instance at:
+[1]     at emitErrorNT (node:net:1944:8)
+[1]     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+[1]   code: 'EADDRINUSE',
+[1]   errno: -98,
+[1]   syscall: 'listen',
+[1]   address: '::',
+[1]   port: 5000
+[1] }
+[1] 
+[1] Node.js v20.19.2
+[1] [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+Fri Jun  6 01:20:45 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 4013 for project playmate-Matchup-main
+Fri Jun  6 01:20:47 PM EDT 2025 - Project launch completed
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T17_20_48_640Z-debug-0.log
+Fri Jun  6 01:23:49 PM EDT 2025 - Launching project at partiFul  funScedDuleR
+Starting node project at partiFul  funScedDuleR
+Allocated port 4014 for project partiFul  funScedDuleR
+Fri Jun  6 01:23:50 PM EDT 2025 - Project launch completed
+
+> event-recommendation-backend@1.0.0 dev
+> nodemon server.js --port 4014 --host 0.0.0.0
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js --port 4014 --host 0.0.0.0`[39m
+node:fs:574
+  return binding.open(
+                 ^
+
+Error: ENOENT: no such file or directory, open '/etc/letsencrypt/live/example.com/privkey.pem'
+    at Object.openSync (node:fs:574:18)
+    at Object.readFileSync (node:fs:453:35)
+    at Object.<anonymous> (/home/admin/0code/00koder/partiFul  funScedDuleR/server.js:11:11)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/etc/letsencrypt/live/example.com/privkey.pem'
+}
+
+Node.js v20.19.2
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[1] cd backend && nodemon server.js exited with code 130
+[0] cd frontend && npm start exited with code SIGINT
+Fri Jun  6 01:55:12 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:13.674440 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:15 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:15.549320 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:17 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:18.057414 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:20 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:20.587124 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:23 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:23.100310 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:25 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:25.608620 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:28 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:28.119990 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:30 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:30.636340 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:33 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:33.151456 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:35 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:35.887954 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:55:38 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 13:55:38.441055 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 01:56:11 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:11 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:11.909593 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:14 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:14 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:14.421068 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:16 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:16 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:16.933205 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:19 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:19 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:19.443610 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:21 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:21 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:21.991824 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:24 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:24 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:24.504092 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:27 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:27 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:27.014570 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:29 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:29 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:29.743822 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:32 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:32 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:32.252626 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:34 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:34 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:34.762942 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 01:56:37 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 01:56:37 PM EDT 2025 - Project launch completed
+2025-06-06 13:56:37.276024 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 02:20:33 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:20:38.845153 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:21:12 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:21:12.824440 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:36 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:36.716660 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:39 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:39.248992 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:41 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:41.765789 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:44 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:44.282184 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:46 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:46.791464 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:49 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:49.293668 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:51 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:51.807885 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:54 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:54.323568 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:56 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:56.831176 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:22:59 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:22:59.343755 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:23:01 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:23:01.931354 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:23:20 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:20.389737 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:30 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:30.653498 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:33 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:33.092157 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:35 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:35.606431 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:38 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:38.149718 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:41 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:41.698270 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:43 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:23:43.973722 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:23:44 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:44.226542 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:46 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:46.734067 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:49 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:49.246941 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:51 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:51.831711 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:54 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 02:23:54 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:23:54.341227 - Failed to get port for project poolAmazt nextui-design-pro-main. Response: 
+2025-06-06 14:32:20.159762 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:22 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:22.663576 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:25 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:25.870378 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:28 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:28.374871 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:30 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:30.884759 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:33 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:33.402128 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:35 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:35.915011 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:42 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:32:42.897263 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:32:45 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:32:45.400630 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:32:47 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:32:47.912737 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:32:50 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:32:50.430138 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:32:52 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:32:52.949208 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:32:55 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:32:55.483818 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:32:57 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:32:58.062535 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:33:00 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:33:00.620408 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:33:03 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:33:03.144182 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:33:05 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:33:05.645574 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:33:08 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:33:08.385710 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:33:12 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:12.750673 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:15 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:15.250857 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:17 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:17.769161 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:20 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:20.278502 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:22 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:22.792639 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:25 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:25.361775 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:27 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:27.825693 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:30 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:30.335718 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:32 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:32.854792 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:35 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:35.358882 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:37 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:33:37.877428 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:33:48 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:33:48.253953 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:33:50 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:33:50.911506 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:33:53 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:33:53.424079 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:33:55 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:33:55.935569 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:33:58 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:33:58.451747 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:34:00 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:34:00.957649 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:34:03 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:34:03.469430 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:34:05 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:34:05.981472 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:34:08 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:34:08.498895 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:34:10 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:34:11.004062 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:34:13 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+ERROR: Failed to allocate port for project poolAmazono3. Response: 
+2025-06-06 14:34:13.511549 - Failed to get port for project poolAmazono3. Output: 
+Fri Jun  6 02:34:17 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 02:34:17 PM EDT 2025 - Project launch completed
+2025-06-06 14:34:17.131816 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 02:34:50 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:34:50.461311 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:35:30 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:35:30.817738 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:43:01 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 3010 for project poolAmazono3
+Fri Jun  6 02:43:01 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev -p 3010
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3010
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3010)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3010
+}ono3. Output: 
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:54.382667 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:23:56 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+ERROR: Failed to allocate port for project playmate-Matchup-main. Response: 
+2025-06-06 14:23:56.912233 - Failed to get port for project playmate-Matchup-main. Output: 
+Fri Jun  6 02:24:10 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:10.434693 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:12 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:12.943433 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:15 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:15.462492 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:17 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:17.976298 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:20 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:20.484556 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:22 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:22.998770 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:25 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:25.511112 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:27 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:28.023537 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:30 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:30.588421 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:33 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:33.107244 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:35 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:35.816940 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:24:44 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+ERROR: Failed to allocate port for project convo-UI. Response: 
+2025-06-06 14:24:44.728479 - Failed to get port for project convo-UI. Output: 
+Fri Jun  6 02:25:18 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:18.422092 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:20 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:20.949007 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:23 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:23.457147 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:25 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:25.965813 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:28 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:28.483160 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:31 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:31.807794 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:34 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:34.316448 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:36 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:36.857008 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:39 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:39.336808 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:41 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:41.848192 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:25:44 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+ERROR: Failed to allocate port for project windsurf apiModular . Response: 
+2025-06-06 14:25:44.361456 - Failed to get port for project windsurf apiModular . Output: 
+Fri Jun  6 02:27:44 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:27:45.037233 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:27:47 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:27:47.541088 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:27:49 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:27:50.057861 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:27:52 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:27:52.609227 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:27:55 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:27:55.172205 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:27:57 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:27:57.684398 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:28:00 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:28:00.194059 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:28:02 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:28:02.706579 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:28:05 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:28:05.214090 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:28:07 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:28:07.729517 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:28:10 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+ERROR: Failed to allocate port for project nextUICash-friendsSlider-main. Response: 
+2025-06-06 14:28:10.239444 - Failed to get port for project nextUICash-friendsSlider-main. Output: 
+Fri Jun  6 02:29:51 PM EDT 2025 - Launching project at cyberspacE-main
+Fri Jun  6 02:29:51 PM EDT 2025 - Project launch completed
+2025-06-06 14:29:51.823524 - Failed to get port for project cyberspacE-main. Output: 
+Fri Jun  6 02:32:10 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+Fri Jun  6 02:32:12 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:15.044042 - Failed to get port for project nextui-design-pro-main. Output: 
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:15.062566 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:15 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:15.136162 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:17 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for project nextui-design-pro-main. Response: 
+2025-06-06 14:32:17.644669 - Failed to get port for project nextui-design-pro-main. Output: 
+Fri Jun  6 02:32:20 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+ERROR: Failed to allocate port for projec
+[?25h
+Fri Jun  6 02:43:20 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+Fri Jun  6 02:43:21 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+Allocated port 3011 for project nextui-design-pro-main
+Allocated port 3011 for project nextui-design-pro-main
+Fri Jun  6 02:43:23 PM EDT 2025 - Launching project at nextui-design-pro-main
+Starting react project at nextui-design-pro-main
+Allocated port 3011 for project nextui-design-pro-main
+Fri Jun  6 02:43:25 PM EDT 2025 - Project launch completed
+Fri Jun  6 02:43:25 PM EDT 2025 - Project launch completed
+Fri Jun  6 02:43:25 PM EDT 2025 - Project launch completed
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T18_43_23_701Z-debug-0.log
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T18_43_23_701Z-debug-0.log
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T18_43_23_934Z-debug-0.log
+Fri Jun  6 02:43:42 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 3012 for project playmate-Matchup-main
+Fri Jun  6 02:43:42 PM EDT 2025 - Project launch completed
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T18_43_42_437Z-debug-0.log
+Fri Jun  6 02:43:46 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3013 for project convo-UI
+Fri Jun  6 02:43:46 PM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+Fri Jun  6 02:43:55 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+Allocated port 3014 for project nextUICash-friendsSlider-main
+Fri Jun  6 02:43:56 PM EDT 2025 - Project launch completed
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T18_43_56_089Z-debug-0.log
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+(node:82566) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:82566) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view ai-convo-ui in the browser.
+
+  Local:            http://localhost:3013
+  On Your Network:  http://192.168.12.112:3013
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Fri Jun  6 02:47:04 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+Fri Jun  6 02:47:06 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting node project at windsurf apiModular 
+Allocated port 3015 for project windsurf apiModular 
+Allocated port 3015 for project windsurf apiModular 
+Fri Jun  6 02:47:06 PM EDT 2025 - Project launch completed
+Fri Jun  6 02:47:06 PM EDT 2025 - Project launch completed
+
+> api-gui-platform@1.0.0 dev
+> concurrently "cd frontend && npm start" "cd backend && nodemon server.js" --port 3015 --host 0.0.0.0
+
+
+> api-gui-platform@1.0.0 dev
+> concurrently "cd frontend && npm start" "cd backend && nodemon server.js" --port 3015 --host 0.0.0.0
+
+[0] 
+[0] > api-gui-platform@1.0.0 start
+[0] > node backend/server.js
+[0] 
+[0] 
+[0] > api-gui-platform@1.0.0 start
+[0] > node backend/server.js
+[0] 
+[1] [33m[nodemon] 3.1.10[39m
+[1] [33m[nodemon] to restart at any time, enter `rs`[39m
+[1] [33m[nodemon] 3.1.10[39m
+[1] [33m[nodemon] to restart at any time, enter `rs`[39m
+[1] [33m[nodemon] watching path(s): *.*[39m
+[1] [33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[1] [32m[nodemon] starting `node server.js`[39m
+[1] [33m[nodemon] watching path(s): *.*[39m
+[1] [33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[1] [32m[nodemon] starting `node server.js`[39m
+[0] [0] cd frontend && npm start exited with code SIGTERM
+cd frontend && npm start exited with code SIGTERM
+[1] cd backend && nodemon server.js exited with code 143
+[1] cd backend && nodemon server.js exited with code 143
+Failed to compile.
+
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/home/admin/0code/00koder/convo-UI'
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in main
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/babel-loader/lib/index.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3013&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/webpack/hot/dev-server.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Child compilation failed:
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/html-webpack-plugin/lib/loader.js' in '/home/admin/0code/00koder/convo-UI'
+ModuleNotFoundError: Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/html-webpack-plugin/lib/loader.js' in '/home/admin/0code/00koder/convo-UI'
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/Compilation.js:2232:28
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:928:13
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:338:22
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:520:22
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:155:10
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:750:23
+    at /home/admin/0code/00koder/convo-UI/node_modules/neo-async/async.js:2830:7
+    at done (/home/admin/0code/00koder/convo-UI/node_modules/neo-async/async.js:2925:13)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:1197:23
+    at finishWithoutResolve (/home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:567:11)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:656:15
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:41:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack compiled with 6 errors
+No issues found.
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/home/admin/0code/00koder/convo-UI'
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in main
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/babel-loader/lib/index.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3013&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/webpack/hot/dev-server.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Child compilation failed:
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/html-webpack-plugin/lib/loader.js' in '/home/admin/0code/00koder/convo-UI'
+ModuleNotFoundError: Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/html-webpack-plugin/lib/loader.js' in '/home/admin/0code/00koder/convo-UI'
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/Compilation.js:2232:28
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:928:13
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:338:22
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:520:22
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:155:10
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:750:23
+    at /home/admin/0code/00koder/convo-UI/node_modules/neo-async/async.js:2830:7
+    at done (/home/admin/0code/00koder/convo-UI/node_modules/neo-async/async.js:2925:13)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:1197:23
+    at finishWithoutResolve (/home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:567:11)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:656:15
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:41:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+webpack compiled with 5 errors
+No issues found.
+Failed to compile.
+
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/home/admin/0code/00koder/convo-UI'
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in main
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/babel-loader/lib/index.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3013&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/webpack/hot/dev-server.js' in '/home/admin/0code/00koder/convo-UI'
+
+ERROR in Child compilation failed:
+Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/html-webpack-plugin/lib/loader.js' in '/home/admin/0code/00koder/convo-UI'
+ModuleNotFoundError: Module not found: Error: Can't resolve '/home/admin/0code/00koder/convo-UI/node_modules/html-webpack-plugin/lib/loader.js' in '/home/admin/0code/00koder/convo-UI'
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/Compilation.js:2232:28
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:928:13
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:338:22
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:520:22
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:155:10
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:750:23
+    at /home/admin/0code/00koder/convo-UI/node_modules/neo-async/async.js:2830:7
+    at done (/home/admin/0code/00koder/convo-UI/node_modules/neo-async/async.js:2925:13)
+    at /home/admin/0code/00koder/convo-UI/node_modules/webpack/lib/NormalModuleFactory.js:1197:23
+    at finishWithoutResolve (/home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:567:11)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:656:15
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/home/admin/0code/00koder/convo-UI/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at /home/admin/0code/00koder/convo-UI/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:41:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+webpack compiled with 5 errors
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Fri Jun  6 06:35:42 PM EDT 2025 - Launching project at ./test-docker-project
+ERROR: Project path ./test-docker-project is not a directory
+Fri Jun  6 06:36:50 PM EDT 2025 - Launching project at ./test-docker-project
+ERROR: Project path ./test-docker-project is not a directory
+Fri Jun  6 06:45:06 PM EDT 2025 - Launching project at /home/admin/0code/00koder/test-docker-project
+Fri Jun  6 06:45:06 PM EDT 2025 - Project launch completed
+Fri Jun  6 06:45:41 PM EDT 2025 - Launching project at ./test-docker-project
+Fri Jun  6 06:45:41 PM EDT 2025 - Project launch completed
+Fri Jun  6 07:18:47 PM EDT 2025 - Launching project at renocrypt-futuristic-static-langchain-app-main
+Starting nextjs project at renocrypt-futuristic-static-langchain-app-main
+Allocated port 3011 for project renocrypt-futuristic-static-langchain-app-main
+Fri Jun  6 07:18:49 PM EDT 2025 - Project launch completed
+
+> renocrypt-futuristic-static-langchain-app@0.1.0 dev
+> next dev -p 3011
+
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3011
+
+ ✓ Starting...
+ ✓ Ready in 4.1s
+Fri Jun  6 07:19:01 PM EDT 2025 - Launching project at futuristicfrontend-main
+Starting nextjs project at futuristicfrontend-main
+Allocated port 3012 for project futuristicfrontend-main
+Fri Jun  6 07:19:02 PM EDT 2025 - Project launch completed
+
+> futuristicfrontend@0.1.0 dev
+> next dev -p 3012
+
+   ▲ Next.js 14.1.4
+   - Local:        http://localhost:3012
+
+ ✓ Ready in 5.3s
+Fri Jun  6 07:19:13 PM EDT 2025 - Launching project at freelanceX-frontend-main
+Starting vue project at freelanceX-frontend-main
+Allocated port 3013 for project freelanceX-frontend-main
+Fri Jun  6 07:19:15 PM EDT 2025 - Project launch completed
+
+> university-project@0.0.0 dev
+> vite --port 3013 --host 0.0.0.0
+
+
+  VITE v6.3.5  ready in 2969 ms
+
+  ➜  Local:   http://localhost:3013/
+  ➜  Network: http://192.168.12.112:3013/
+Fri Jun  6 07:19:33 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3014 for project convo-UI
+Fri Jun  6 07:19:34 PM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+Fri Jun  6 07:19:57 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Fri Jun  6 07:19:59 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 3015 for project poolAmazono3
+Allocated port 3015 for project poolAmazono3
+Fri Jun  6 07:20:00 PM EDT 2025 - Project launch completed
+Fri Jun  6 07:20:00 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev -p 3015
+
+
+> order-pooling-app@1.0.0 dev
+> next dev -p 3015
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3015
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3015)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3015
+}
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3015
+   - Network:      http://192.168.12.112:3015
+
+ ✓ Starting...
+[?25h
+ ✓ Ready in 9.9s
+Fri Jun  6 07:20:32 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 3016 for project playmate-Matchup-main
+Fri Jun  6 07:20:32 PM EDT 2025 - Project launch completed
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-06T23_20_35_791Z-debug-0.log
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+Fri Jun  6 07:20:46 PM EDT 2025 - Launching project at atomize-master
+Starting react project at atomize-master
+Allocated port 3017 for project atomize-master
+Fri Jun  6 07:20:46 PM EDT 2025 - Project launch completed
+/home/admin/0code/00koder/launch_project.sh: line 82: yarn: command not found
+(node:84337) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:84337) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+ ○ Compiling / ...
+ ✓ Compiled / in 4.6s (366 modules)
+ GET / 200 in 6243ms
+Compiled successfully!
+
+You can now view ai-convo-ui in the browser.
+
+  Local:            http://localhost:3014
+  On Your Network:  http://192.168.12.112:3014
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+No issues found.
+ GET / 200 in 255ms
+ ○ Compiling / ...
+ ✓ Compiled / in 187.4s (642 modules)
+ ✓ Compiled in 13.8s (294 modules)
+ GET / 200 in 210807ms
+ ○ Compiling /favicon.ico ...
+Fri Jun  6 08:08:44 PM EDT 2025 - Launching project at poolAmazono3
+Starting nextjs project at poolAmazono3
+Allocated port 3011 for project poolAmazono3
+Fri Jun  6 08:08:45 PM EDT 2025 - Project launch completed
+
+> order-pooling-app@1.0.0 dev
+> next dev -p 3011
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3011
+   - Network:      http://192.168.12.112:3011
+
+ ✓ Starting...
+ ✓ Ready in 19.4s
+Fri Jun  6 08:09:49 PM EDT 2025 - Launching project at futuristicvr-frontend-master
+Starting react project at futuristicvr-frontend-master
+Allocated port 3012 for project futuristicvr-frontend-master
+Fri Jun  6 08:09:51 PM EDT 2025 - Project launch completed
+Fri Jun  6 08:09:51 PM EDT 2025 - Launching project at futuristicvr-frontend-master
+Starting react project at futuristicvr-frontend-master
+Allocated port 3012 for project futuristicvr-frontend-master
+Fri Jun  6 08:09:51 PM EDT 2025 - Project launch completed
+/home/admin/0code/00koder/launch_project.sh: line 84: yarn: command not found
+/home/admin/0code/00koder/launch_project.sh: line 84: yarn: command not found
+Fri Jun  6 08:10:05 PM EDT 2025 - Launching project at nextUICash-friendsSlider-main
+Starting react project at nextUICash-friendsSlider-main
+Allocated port 3013 for project nextUICash-friendsSlider-main
+Fri Jun  6 08:10:06 PM EDT 2025 - Project launch completed
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-07T00_10_07_318Z-debug-0.log
+ ○ Compiling / ...
+ ✓ Compiled / in 1998ms (366 modules)
+ GET / 200 in 2631ms
+Fri Jun  6 08:10:26 PM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3014 for project convo-UI
+Fri Jun  6 08:10:26 PM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+Fri Jun  6 08:10:37 PM EDT 2025 - Launching project at windsurf apiModular 
+Starting express project at windsurf apiModular 
+Allocated port 3015 for project windsurf apiModular 
+Fri Jun  6 08:10:37 PM EDT 2025 - Project launch completed
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module '/home/admin/0code/00koder/windsurf apiModular /app.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.19.2
+Fri Jun  6 08:10:52 PM EDT 2025 - Launching project at argon-design-system-react-master
+Starting react project at argon-design-system-react-master
+Allocated port 3016 for project argon-design-system-react-master
+Fri Jun  6 08:10:53 PM EDT 2025 - Project launch completed
+
+> argon-design-system-react@1.1.2 start
+> react-scripts start
+
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+ GET / 200 in 229ms
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+(node:105697) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:105697) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:105923) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:105923) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Fri Jun  6 08:11:55 PM EDT 2025 - Launching project at narita-master
+Starting node project at narita-master
+Allocated port 3017 for project narita-master
+Fri Jun  6 08:11:56 PM EDT 2025 - Project launch completed
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-07T00_11_56_364Z-debug-0.log
+Starting the development server...
+
+Compiled successfully!
+
+You can now view ai-convo-ui in the browser.
+
+  Local:            http://localhost:3014
+  On Your Network:  http://192.168.12.112:3014
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+Fri Jun  6 08:12:10 PM EDT 2025 - Launching project at Sora-master
+Starting react project at Sora-master
+Fri Jun  6 08:12:12 PM EDT 2025 - Launching project at Sora-master
+Fri Jun  6 08:12:14 PM EDT 2025 - Launching project at Sora-master
+Starting react project at Sora-master
+Starting react project at Sora-master
+Fri Jun  6 08:12:17 PM EDT 2025 - Launching project at Sora-master
+Starting react project at Sora-master
+Fri Jun  6 08:12:20 PM EDT 2025 - Launching project at Sora-master
+Starting react project at Sora-master
+Allocated port 3018 for project Sora-master
+Allocated port 3018 for project Sora-master
+Allocated port 3018 for project Sora-master
+Allocated port 3018 for project Sora-master
+Allocated port 3018 for project Sora-master
+Fri Jun  6 08:12:21 PM EDT 2025 - Project launch completed
+Fri Jun  6 08:12:21 PM EDT 2025 - Project launch completed
+Fri Jun  6 08:12:21 PM EDT 2025 - Project launch completed
+Fri Jun  6 08:12:21 PM EDT 2025 - Project launch completed
+Fri Jun  6 08:12:21 PM EDT 2025 - Project launch completed
+
+> start
+> dotenv -e .env remix-serve ./build/index.js
+
+
+> start
+> dotenv -e .env remix-serve ./build/index.js
+
+
+> start
+> dotenv -e .env remix-serve ./build/index.js
+
+
+> start
+> dotenv -e .env remix-serve ./build/index.js
+
+
+> start
+> dotenv -e .env remix-serve ./build/index.js
+
+No issues found.
+Usage: dotenv [OPTIONS] COMMAND [ARGS]...
+Try 'dotenv --help' for help.
+
+Usage: dotenv [OPTIONS] COMMAND [ARGS]...
+Try 'dotenv --help' for help.
+
+Usage: dotenv [OPTIONS] COMMAND [ARGS]...
+Try 'dotenv --help' for help.
+
+Usage: dotenv [OPTIONS] COMMAND [ARGS]...
+Try 'dotenv --help' for help.
+
+Error: Invalid value for '-e' / '--export': '.env' is not a valid boolean.
+Error: Invalid value for '-e' / '--export': '.env' is not a valid boolean.
+Error: Invalid value for '-e' / '--export': '.env' is not a valid boolean.
+Usage: dotenv [OPTIONS] COMMAND [ARGS]...
+Try 'dotenv --help' for help.
+
+Error: Invalid value for '-e' / '--export': '.env' is not a valid boolean.
+Error: Invalid value for '-e' / '--export': '.env' is not a valid boolean.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view argon-design-system-react in the browser.
+
+  Local:            http://localhost:3016/argon-design-system-react
+  On Your Network:  http://192.168.12.112:3016/argon-design-system-react
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[0].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].oneOf[7].use[4]!./src/assets/scss/argon-design-system-react.scss?v1.1.0
+<w> Deprecation $degrees: Passing a unit other than deg (25%) is deprecated.
+<w> 
+<w> To preserve current behavior: calc($degrees / 1%)
+<w> 
+<w> See https://sass-lang.com/d/function-units
+<w> 
+<w> src/assets/scss/argon-design-system/mixins/background-variant.scss 16:54  bg-gradient-variant()
+<w> src/assets/scss/argon-design-system/utilities/backgrounds.scss 6:2        @import
+<w> src/assets/scss/argon-design-system/utilities.scss 1:9                    @import
+<w> src/assets/scss/argon-design-system/theme.scss 27:9                       @import
+<w> src/assets/scss/argon-design-system-react.scss 29:9                       root stylesheet
+<w>
+
+webpack compiled successfully
+Fri Jun  6 08:14:32 PM EDT 2025 - Launching project at freelanceX-frontend-main
+Starting vue project at freelanceX-frontend-main
+Fri Jun  6 08:14:34 PM EDT 2025 - Launching project at freelanceX-frontend-main
+Starting vue project at freelanceX-frontend-main
+Allocated port 3019 for project freelanceX-frontend-main
+Allocated port 3019 for project freelanceX-frontend-main
+Fri Jun  6 08:14:35 PM EDT 2025 - Project launch completed
+Fri Jun  6 08:14:35 PM EDT 2025 - Project launch completed
+
+> university-project@0.0.0 dev
+> vite --port 3019 --host 0.0.0.0
+
+
+> university-project@0.0.0 dev
+> vite --port 3019 --host 0.0.0.0
+
+Port 3019 is in use, trying another one...
+
+  VITE v6.3.5  ready in 5408 ms
+
+  ➜  Local:   http://localhost:3019/
+  ➜  Network: http://192.168.12.112:3019/
+
+  VITE v6.3.5  ready in 5410 ms
+
+  ➜  Local:   http://localhost:3020/
+  ➜  Network: http://192.168.12.112:3020/
+Fri Jun  6 08:16:42 PM EDT 2025 - Launching project at wendyWu-main
+Starting nextjs project at wendyWu-main
+Allocated port 3021 for project wendyWu-main
+/home/admin/0code/00koder/launch_project.sh: line 82: yarn: command not found
+Fri Jun  6 08:16:45 PM EDT 2025 - Project launch completed
+ GET / 200 in 344ms
+8:18:05 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+8:18:05 PM [vite] (client) Pre-transform error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+
+warn - The `purge`/`content` options have changed in Tailwind CSS v3.0.
+warn - Update your configuration file to eliminate this warning.
+warn - https://tailwindcss.com/docs/upgrade-guide#configure-content-sources
+
+warn - The `darkMode` option in your Tailwind CSS configuration is set to `false`, which now behaves the same as `media`.
+warn - Change `darkMode` to `media` or remove it entirely.
+warn - https://tailwindcss.com/docs/upgrade-guide#remove-dark-mode-configuration
+8:18:31 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+8:18:31 PM [vite] (client) Pre-transform error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+
+warn - The `purge`/`content` options have changed in Tailwind CSS v3.0.
+warn - Update your configuration file to eliminate this warning.
+warn - https://tailwindcss.com/docs/upgrade-guide#configure-content-sources
+
+warn - The `darkMode` option in your Tailwind CSS configuration is set to `false`, which now behaves the same as `media`.
+warn - Change `darkMode` to `media` or remove it entirely.
+warn - https://tailwindcss.com/docs/upgrade-guide#remove-dark-mode-configuration
+8:20:58 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+8:35:01 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+8:39:39 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+8:40:49 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+Fri Jun  6 08:45:20 PM EDT 2025 - Launching project at renocrypt-futuristic-static-langchain-app-main
+Starting nextjs project at renocrypt-futuristic-static-langchain-app-main
+Allocated port 3022 for project renocrypt-futuristic-static-langchain-app-main
+Fri Jun  6 08:45:21 PM EDT 2025 - Project launch completed
+
+> renocrypt-futuristic-static-langchain-app@0.1.0 dev
+> next dev -p 3022
+
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3022
+
+ ✓ Starting...
+ ✓ Ready in 6.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 7s (642 modules)
+ ✓ Compiled in 655ms (294 modules)
+ GET / 200 in 134ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.5s (345 modules)
+ GET /favicon.ico 200 in 3712ms
+ GET / 200 in 139ms
+ GET / 200 in 256ms
+ GET / 200 in 43ms
+Fri Jun  6 08:48:52 PM EDT 2025 - Launching project at futuristicfrontend-main
+Starting nextjs project at futuristicfrontend-main
+Allocated port 3023 for project futuristicfrontend-main
+Fri Jun  6 08:48:52 PM EDT 2025 - Project launch completed
+
+> futuristicfrontend@0.1.0 dev
+> next dev -p 3023
+
+   ▲ Next.js 14.1.4
+   - Local:        http://localhost:3023
+
+ ✓ Ready in 6s
+ ○ Compiling / ...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ✓ Compiled / in 13.5s (538 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 5.6s (532 modules)
+8:50:07 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+Fri Jun  6 08:50:42 PM EDT 2025 - Launching project at atomize-master
+Starting react project at atomize-master
+Allocated port 3024 for project atomize-master
+Fri Jun  6 08:50:43 PM EDT 2025 - Project launch completed
+/home/admin/0code/00koder/launch_project.sh: line 84: yarn: command not found
+Fri Jun  6 08:53:31 PM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 3025 for project playmate-Matchup-main
+Fri Jun  6 08:53:31 PM EDT 2025 - Project launch completed
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/admin/.npm/_logs/2025-06-07T00_53_32_563Z-debug-0.log
+ GET / 200 in 1001ms
+ GET /favicon.ico 200 in 59ms
+9:41:00 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+9:42:19 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+ GET / 200 in 549ms
+ GET / 200 in 260ms
+9:43:27 PM [vite] Internal server error: Failed to resolve import "../pages/Jobs.vue" from "src/router/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/admin/0code/00koder/freelanceX-frontend-main/src/router/index.ts:12:17
+  10 |  import { useUserStore } from "../store/user";
+  11 |  import ContractDetails from "../pages/ContractDetails.vue";
+  12 |  import Jobs from "../pages/Jobs.vue";
+     |                    ^
+  13 |  import EditProfile from "../pages/EditProfile.vue";
+  14 |  const routes = [
+      at TransformPluginContext._formatLog (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/admin/0code/00koder/freelanceX-frontend-main/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+Sat Jun  7 12:11:59 AM EDT 2025 - Launching project at wendyWu-main
+Starting nextjs project at wendyWu-main
+Allocated port 3000 for project wendyWu-main
+Installing dependencies in background for project wendyWu-main
+Sat Jun  7 12:12:03 AM EDT 2025 - Project launch completed
+yarn run v1.22.22
+warning ../../../package.json: No license field
+warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+$ next dev -p 3000
+/bin/sh: line 1: next: command not found
+error Command failed with exit code 127.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Sat Jun  7 12:15:44 AM EDT 2025 - Launching project at cyberspacE-main
+Sat Jun  7 12:15:44 AM EDT 2025 - Project launch completed
+2025-06-07 00:15:44.336907 - Failed to get port for project cyberspacE-main. Output: 
+Sat Jun  7 12:15:53 AM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Sat Jun  7 12:16:00 AM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3002 for project convo-UI
+Allocated port 3001 for project playmate-Matchup-main
+Sat Jun  7 12:16:07 AM EDT 2025 - Project launch completed
+Sat Jun  7 12:16:07 AM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+
+> vite_react_shadcn_ts@0.0.0 start
+> vite
+
+
+  VITE v5.4.10  ready in 86546 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: http://192.168.12.112:8080/
+  ➜  Network: http://10.2.0.2:8080/
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+(node:428811) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:428811) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view ai-convo-ui in the browser.
+
+  Local:            http://localhost:3002
+  On Your Network:  http://192.168.12.112:3002
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Sat Jun  7 12:27:35 AM EDT 2025 - Launching project at atomize-master
+Starting react project at atomize-master
+Allocated port 3003 for project atomize-master
+Sat Jun  7 12:27:40 AM EDT 2025 - Project launch completed
+yarn run v1.22.22
+warning ../../../package.json: No license field
+$ webpack-dev-server
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost:8081/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from docs/
+node:internal/crypto/hash:79
+  this[kHandle] = new _Hash(algorithm, xofLen, algorithmId, getHashCache());
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:79:19)
+    at Object.createHash (node:crypto:139:10)
+    at module.exports (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:503:5
+    at /home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:358:12
+    at /home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at Array.<anonymous> (/home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:205:4) {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v22.15.1
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Sat Jun  7 05:30:50 PM EDT 2025 - Launching project at convo-UI
+Sat Jun  7 05:30:50 PM EDT 2025 - Launching project at poolAmazono3
+Starting react project at convo-UI
+Starting nextjs project at poolAmazono3
+Allocated port 3002 for project convo-UI
+Allocated port 3004 for project poolAmazono3
+Sat Jun  7 05:31:02 PM EDT 2025 - Project launch completed
+Sat Jun  7 05:31:02 PM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+
+> order-pooling-app@1.0.0 dev
+> next dev -p 3004
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3004
+   - Network:      http://192.168.12.112:3004
+
+ ✓ Starting...
+ ✓ Ready in 58.7s
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+Sun Jun  8 01:59:56 AM EDT 2025 - Launching project at Sora-master
+Starting react project at Sora-master
+Allocated port 3004 for project Sora-master
+Installing dependencies in background for project Sora-master
+Sun Jun  8 02:00:00 AM EDT 2025 - Project launch completed
+
+> start
+> dotenv -e .env remix-serve ./build/index.js
+
+Usage: dotenv [OPTIONS] COMMAND [ARGS]...
+Try 'dotenv --help' for help.
+
+Error: Invalid value for '-e' / '--export': '.env' is not a valid boolean.
+Sun Jun  8 02:00:18 AM EDT 2025 - Launching project at convo-UI
+Starting react project at convo-UI
+Allocated port 3002 for project convo-UI
+Sun Jun  8 02:00:18 AM EDT 2025 - Project launch completed
+
+> ai-convo-ui@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider react-scripts start
+
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+(node:60602) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:60602) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view ai-convo-ui in the browser.
+
+  Local:            http://localhost:3002
+  On Your Network:  http://192.168.12.112:3002
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Sun Jun  8 02:02:27 AM EDT 2025 - Launching project at wendyWu-main
+Starting nextjs project at wendyWu-main
+Allocated port 3000 for project wendyWu-main
+Installing dependencies in background for project wendyWu-main
+Sun Jun  8 02:02:34 AM EDT 2025 - Project launch completed
+yarn run v1.22.22
+warning ../../../package.json: No license field
+warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+$ next dev -p 3000
+/bin/sh: line 1: next: command not found
+error Command failed with exit code 127.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Sun Jun  8 02:02:56 AM EDT 2025 - Launching project at atomize-master
+Starting react project at atomize-master
+Allocated port 3003 for project atomize-master
+Sun Jun  8 02:02:56 AM EDT 2025 - Project launch completed
+yarn run v1.22.22
+warning ../../../package.json: No license field
+$ webpack-dev-server
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from docs/
+node:internal/crypto/hash:79
+  this[kHandle] = new _Hash(algorithm, xofLen, algorithmId, getHashCache());
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:79:19)
+    at Object.createHash (node:crypto:139:10)
+    at module.exports (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:503:5
+    at /home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:358:12
+    at /home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at Array.<anonymous> (/home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:205:4) {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v22.15.1
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Mon Jun  9 03:33:24 AM EDT 2025 - Launching project at playmate-Matchup-main
+Starting react project at playmate-Matchup-main
+Allocated port 3001 for project playmate-Matchup-main
+Mon Jun  9 03:33:26 AM EDT 2025 - Project launch completed
+
+> vite_react_shadcn_ts@0.0.0 start
+> vite
+
+
+  VITE v5.4.10  ready in 14624 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: http://192.168.12.112:8080/
+  ➜  Network: http://10.2.0.2:8080/
+Mon Jun  9 12:16:16 PM EDT 2025 - Launching project at atomize-master
+Starting react project at atomize-master
+Allocated port 3003 for project atomize-master
+Mon Jun  9 12:16:20 PM EDT 2025 - Project launch completed
+yarn run v1.22.22
+warning ../../../package.json: No license field
+$ webpack-dev-server
+Mon Jun  9 12:16:51 PM EDT 2025 - Launching project at renocrypt-futuristic-static-langchain-app-main
+Starting nextjs project at renocrypt-futuristic-static-langchain-app-main
+Allocated port 3004 for project renocrypt-futuristic-static-langchain-app-main
+Mon Jun  9 12:16:54 PM EDT 2025 - Project launch completed
+
+> renocrypt-futuristic-static-langchain-app@0.1.0 dev
+> next dev -p 3004
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from docs/
+node:internal/crypto/hash:79
+  this[kHandle] = new _Hash(algorithm, xofLen, algorithmId, getHashCache());
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:79:19)
+    at Object.createHash (node:crypto:139:10)
+    at module.exports (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:503:5
+    at /home/admin/0code/00koder/atomize-master/node_modules/webpack/lib/NormalModule.js:358:12
+    at /home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at Array.<anonymous> (/home/admin/0code/00koder/atomize-master/node_modules/loader-runner/lib/LoaderRunner.js:205:4) {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v22.15.1
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Mon Jun  9 12:17:19 PM EDT 2025 - Launching project at wendyWu-main
+Starting nextjs project at wendyWu-main
+Allocated port 3000 for project wendyWu-main
+Installing dependencies in background for project wendyWu-main
+Mon Jun  9 12:17:27 PM EDT 2025 - Project launch completed
+yarn run v1.22.22
+warning ../../../package.json: No license field
+warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+$ next dev -p 3000
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3004
+
+ ✓ Starting...
+ ✓ Ready in 49.1s
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.12.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 47.7s

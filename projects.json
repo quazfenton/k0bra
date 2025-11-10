@@ -1,0 +1,226 @@
+[
+  {
+    "name": "wendyWu-main",
+    "path": "wendyWu-main",
+    "type": "nextjs",
+    "icon": "nextjs-icon.svg",
+    "description": "# My personal Website\n\n<a href=\"\n![image](\n![Google Chrome 2024-07-12 22 33 34](",
+    "last_modified": 1749364477.3779233
+  },
+  {
+    "name": "renocrypt-futuristic-static-langchain-app-main",
+    "path": "renocrypt-futuristic-static-langchain-app-main",
+    "type": "nextjs",
+    "icon": "nextjs-icon.svg",
+    "description": "# Futuristic Static Webapp\n\nA modern, client-side only web application built with Next.js and shadcn UI. Features a dark/light mode toggle and uses Space Grotesk font for a futuristic look.\n\n## Key Features\n- \ud83c\udf13 Dark/Light mode toggle\n- \ud83c\udfa8 Modern UI wi",
+    "last_modified": 1749364477.3469234
+  },
+  {
+    "name": "qiankun-example",
+    "path": "qiankun-example",
+    "type": "unknown",
+    "icon": "default-icon.svg",
+    "description": "# qiankun-example\n\nqiankun \u5b9e\u6218 demo\uff0c\u7236\u5e94\u7528 vue\uff0c\u5b50\u5e94\u7528\u4f7f\u7528 `react`, `vue` \u548c `\u539f\u751fHTML`\u3002\n\n[\u5fae\u524d\u7aefqiankun\u4ece\u642d\u5efa\u5230\u90e8\u7f72\u7684\u5b9e\u8df5](\n## \u5f00\u59cb\n\u5b89\u88c5\u6839\u76ee\u5f55\u5de5\u7a0b\u4f9d\u8d56\n```\nnpm i\n```\n\u4e00\u952e\u5b89\u88c5\u6240\u6709\u4e3b\u5b50\u5e94\u7528\u7684\u4f9d\u8d56\n```\nnpm run install\n```\n\n\u4e00\u952e\u542f\u52a8\u6240\u6709\u6240\u6709\u5e94\u7528\n```\nnpm start\n```\n\n\u901a\u8fc7 [htt",
+    "last_modified": 1749364477.3246589
+  },
+  {
+    "name": "poolAmazono3",
+    "path": "poolAmazono3",
+    "type": "nextjs",
+    "icon": "nextjs-icon.svg",
+    "description": null,
+    "last_modified": 1749364477.3069239
+  },
+  {
+    "name": "playmate-Matchup-main",
+    "path": "playmate-Matchup-main",
+    "type": "typescript",
+    "icon": "ts-icon.svg",
+    "description": "The frontend will be an empty soccer team formation GUI similar to the squad lineup screen that shows players on your team in soccer games etc. It will have a menu to find team  (find people to play with locally via) GPS), etc.\n\nCenter the team lineu",
+    "last_modified": 1749364477.2479243
+  },
+  {
+    "name": "nextui-design-pro-main",
+    "path": "nextui-design-pro-main",
+    "type": "unknown",
+    "icon": "default-icon.svg",
+    "description": "<!-- logo -->\n<br />\n\n<div align=\"center\" id=\"top\">\n  <a href=\"    <img src=\"alt=\"Logo\" width=\"80\" ",
+    "last_modified": 1749364477.22522
+  },
+  {
+    "name": "nextUICash-friendsSlider-main",
+    "path": "nextUICash-friendsSlider-main",
+    "type": "typescript",
+    "icon": "ts-icon.svg",
+    "description": "# NextUI-Dashboard (Starter Version)\n\n**Glad you chose us to develop your project.**\n\n## Skills\n\n- React.js\n- Typescript\n- Tanstack/react-router\n- Next-UI\n- Farmer-motion\n- Tailwind\n- Tanstack/react-query\n- axios\n- clsx\n- js-cookie\n- react-hot-toast\n",
+    "last_modified": 1749364477.2139246
+  },
+  {
+    "name": "freelanceX-frontend-main",
+    "path": "freelanceX-frontend-main",
+    "type": "vue",
+    "icon": "vue-icon.svg",
+    "description": "# FreelanceX Frontend\n\nThis is the **frontend for the FreelanceX project**. The backend is developed in **Spring Boot**.\n\nThe frontend is built using **Vue 3**, **TypeScript**, and **Vite**. It uses the `<script setup>` syntax for Single File Compone",
+    "last_modified": 1749364477.2009249
+  },
+  {
+    "name": "convo-UI",
+    "path": "convo-UI",
+    "type": "typescript",
+    "icon": "ts-icon.svg",
+    "description": "# AI Conversation User Interface\n\n## Overview\nThe AI Conversation User Interface (AI Convo UI) is an avant-garde application designed to facilitate seamless interactions between users and AI. This project leverages modern web technologies to create a",
+    "last_modified": 1749364477.1359255
+  },
+  {
+    "name": "atomize-master",
+    "path": "atomize-master",
+    "type": "react",
+    "icon": "react-icon.svg",
+    "description": "<p align=\"center\">\n  <a href=\"    <img width=\"110px\" style=\"margin-right: 20px\" src=\"  </a>\n</p>\n\n<h1 align=\"center\">Atomize Code</h1>\n\n",
+    "last_modified": 1749364477.1139257
+  },
+  {
+    "name": "Sora-master",
+    "path": "Sora-master",
+    "type": "typescript",
+    "icon": "ts-icon.svg",
+    "description": "<a name=\"readme-top\"></a>\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <a href=\"    <img src=\"app/assets/images/logo_loading.png\" alt=\"Logo\" width=\"80\" height=\"80\">\n  </a>\n\n<h2 align=\"center\">SORA<",
+    "last_modified": 1749364477.1129258
+  },
+  {
+    "name": "0content",
+    "path": "0content",
+    "type": "unknown",
+    "icon": "default-icon.svg",
+    "description": null,
+    "last_modified": 1749364476.4779317
+  },
+  {
+    "name": "upload",
+    "path": "upload",
+    "type": "unknown",
+    "icon": "default-icon.svg",
+    "description": null,
+    "last_modified": 1749364476.4779317
+  },
+  {
+    "name": "futuristicvr-frontend-master",
+    "path": "futuristicvr-frontend-master",
+    "type": "react",
+    "icon": "react-icon.svg",
+    "description": "This project was bootstrapped with [Create React App](\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `yarn start`\n\nRuns the app in the development mode.<br />\nOpen [",
+    "last_modified": 1749357163.2379317
+  },
+  {
+    "name": "narita-master",
+    "path": "narita-master",
+    "type": "unknown",
+    "icon": "default-icon.svg",
+    "description": "# The Coding Forge Website\n\nI built this AAAGGGEESSS ago with the pug templating engine, and I still haven't updated it much. I want to convert to use react or maybe play around with Vue.\n\nUntil then though, you can check it out here [",
+    "last_modified": 1749356863.6496167
+  },
+  {
+    "name": "test-docker-advanced",
+    "path": "test-docker-advanced",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1749263137.8879588
+  },
+  {
+    "name": "cyberspacE-main",
+    "path": "cyberspacE-main",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1749233846.20385
+  },
+  {
+    "name": "venv",
+    "path": "venv",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1749180822.3823268
+  },
+  {
+    "name": "dynamic-apps",
+    "path": "dynamic-apps",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1749152960.8650165
+  },
+  {
+    "name": "orangeBlu panel",
+    "path": "orangeBlu panel",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1749148775.0850995
+  },
+  {
+    "name": "spectralMorph g25",
+    "path": "spectralMorph g25",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1747858396.3513002
+  },
+  {
+    "name": "sliCer",
+    "path": "sliCer",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1747818318.923134
+  },
+  {
+    "name": "mario",
+    "path": "mario",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1739338628.0
+  },
+  {
+    "name": "glassPlate",
+    "path": "glassPlate",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1739338628.0
+  },
+  {
+    "name": "LN",
+    "path": "LN",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": null,
+    "last_modified": 1739338308.0
+  },
+  {
+    "name": "zine altcovers",
+    "path": "zine altcovers",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": "# snippets\nnothing\n",
+    "last_modified": 1739336648.0
+  },
+  {
+    "name": "codeterminal css",
+    "path": "codeterminal css",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": "# snippets\nnothing\n",
+    "last_modified": 1739335020.0
+  },
+  {
+    "name": "sandBox-main",
+    "path": "sandBox-main",
+    "type": "static",
+    "icon": "static-icon.svg",
+    "description": "# sandBox\nempty CSB plate\n",
+    "last_modified": 1739324440.0
+  }
+]

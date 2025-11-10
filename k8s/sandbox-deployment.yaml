@@ -1,0 +1,90 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sandbox-executor
+  namespace: k0bra-system
+  labels:
+    app: sandbox-executor
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: sandbox-executor
+  template:
+    metadata:
+      labels:
+        app: sandbox-executor
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        fsGroup: 1000
+      containers:
+      - name: sandbox-executor
+        image: k0bra/sandbox-executor:latest
+        ports:
+        - containerPort: 5001
+        env:
+        - name: DOCKER_HOST
+          value: "unix:///var/run/docker.sock"
+        - name: MAX_CONCURRENT_EXECUTIONS
+          value: "10"
+        - name: EXECUTION_TIMEOUT
+          value: "30"
+        volumeMounts:
+        - name: docker-sock
+          mountPath: /var/run/docker.sock
+        - name: tmp-volume
+          mountPath: /tmp
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          capabilities:
+            drop:
+            - ALL
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5001
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 5001
+          initialDelaySeconds: 5
+          periodSeconds: 5
+      volumes:
+      - name: docker-sock
+        hostPath:
+          path: /var/run/docker.sock
+      - name: tmp-volume
+        emptyDir: {}
+      nodeSelector:
+        k0bra.io/sandbox-enabled: "true"
+      tolerations:
+      - key: "k0bra.io/sandbox"
+        operator: "Equal"
+        value: "true"
+        effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sandbox-service
+  namespace: k0bra-system
+spec:
+  selector:
+    app: sandbox-executor
+  ports:
+  - port: 5001
+    targetPort: 5001
+    protocol: TCP
+  type: ClusterIP

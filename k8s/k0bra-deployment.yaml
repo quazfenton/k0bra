@@ -1,0 +1,72 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k0bra-app
+  namespace: k0bra-system
+  labels:
+    app: k0bra-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: k0bra-app
+  template:
+    metadata:
+      labels:
+        app: k0bra-app
+    spec:
+      containers:
+      - name: k0bra-dashboard
+        image: k0bra/dashboard:latest
+        ports:
+        - containerPort: 9111
+        env:
+        - name: REDIS_URL
+          value: "redis://redis-service:6379"
+        - name: DOCKER_HOST
+          value: "unix:///var/run/docker.sock"
+        volumeMounts:
+        - name: docker-sock
+          mountPath: /var/run/docker.sock
+        - name: projects-volume
+          mountPath: /app/projects
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 9111
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 9111
+          initialDelaySeconds: 5
+          periodSeconds: 5
+      volumes:
+      - name: docker-sock
+        hostPath:
+          path: /var/run/docker.sock
+      - name: projects-volume
+        persistentVolumeClaim:
+          claimName: k0bra-projects-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: k0bra-service
+  namespace: k0bra-system
+spec:
+  selector:
+    app: k0bra-app
+  ports:
+  - port: 80
+    targetPort: 9111
+    protocol: TCP
+  type: LoadBalancer

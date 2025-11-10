@@ -1,0 +1,11 @@
+requests
+flask
+selenium
+pillow
+docker
+redis
+psutil
+prometheus_client
+boto3
+websocket-client
+watchdog

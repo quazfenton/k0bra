@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeSandbox Portfolio</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="./assets/images/app_icon.webp" type="image/webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #00ff00; /* Green */
+            --secondary: #ffff00; /* Yellow */
+            --accent: #ff00ff; /* Magenta */
+            --bg: #1a1a1a; /* Dark Grey */
+            --glass: rgba(0, 255, 0, 0.1); /* Semi-transparent green */
+            --glass-border: rgba(0, 255, 0, 0.3); /* Semi-transparent green border */
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--bg);
+            color: var(--primary);
+            font-family: 'Courier New', Courier, monospace;
+            min-height: 100vh;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 20px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px dashed var(--primary);
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--secondary);
+            text-shadow: 0 0 5px var(--secondary);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .nav-link {
+            color: var(--primary);
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: all 0.3s ease;
+            border-radius: 3px;
+        }
+        
+        .nav-link:hover {
+            background: rgba(0, 255, 0, 0.1);
+            color: var(--secondary);
+        }
+        
+        .panel {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+            transition: all 0.3s ease;
+            overflow: hidden;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .projects-panel {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .right-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .panel-title {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            color: var(--accent);
+            font-weight: 600;
+            text-shadow: 0 0 3px var(--accent);
+        }
+        
+        .project-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            overflow-y: visible;
+            height: auto;
+        }
+        
+        .project-item {
+            padding: 15px;
+            background: rgba(0, 255, 0, 0.05);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 8px rgba(0, 255, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            height: 250px;
+        }
+        
+        .project-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 255, 0, 0.3);
+            border-color: rgba(0, 255, 0, 0.5);
+        }
+        
+        .project-preview {
+            width: 100%;
+            height: 120px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            position: relative;
+        }
+        
+        .project-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .project-preview .placeholder-icon {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--primary);
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .project-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--secondary);
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            max-width: 70%;
+        }
+        
+        .project-framework-icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+        
+        .project-description {
+            font-size: 0.8rem;
+            color: rgba(0, 255, 0, 0.8);
+            margin-bottom: 10px;
+            flex-grow: 1;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        
+        .project-meta {
+            display: flex;
+            font-size: 0.75rem;
+            color: rgba(0, 255, 0, 0.7);
+            margin-bottom: 10px;
+            gap: 10px;
+        }
+        
+        .project-status {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.7rem;
+        }
+        
+        .status-running {
+            background: rgba(0, 255, 0, 0.2);
+            color: var(--primary);
+        }
+        
+        .status-stopped {
+            background: rgba(255, 0, 0, 0.2);
+            color: #ff4d4d;
+        }
+        
+        .project-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: auto;
+        }
+        
+        .action-btn {
+            flex: 1;
+            background: rgba(0, 255, 0, 0.1);
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            padding: 6px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.8rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .action-btn:hover {
+            background: var(--primary);
+            color: var(--bg);
+        }
+        
+        .action-btn i {
+            margin-right: 5px;
+        }
+        
+        .ai-analysis {
+            background: rgba(0, 255, 0, 0.05);
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 0 8px rgba(0, 255, 0, 0.1);
+            border: 1px solid rgba(0, 255, 0, 0.2);
+        }
+        
+        .ai-content {
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        
+        .ai-highlight {
+            color: var(--secondary);
+            font-weight: 500;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            background: rgba(0, 255, 0, 0.05);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        .tab-btn {
+            background: transparent;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--primary);
+            font-family: 'Courier New', Courier, monospace;
+            border-radius: 3px;
+        }
+        
+        .tab-btn:hover {
+            background: rgba(0, 255, 0, 0.1);
+        }
+        
+        .tab-btn.active {
+            background: var(--primary);
+            color: var(--bg);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .info-panel {
+            background: rgba(0, 255, 0, 0.05);
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 0 8px rgba(0, 255, 0, 0.1);
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            height: 250px;
+            overflow-y: auto;
+            color: var(--primary);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .readme-content {
+            white-space: pre-wrap;
+        }
+
+        .terminal {
+            background: #0d0d0d;
+            border-radius: 8px;
+            padding: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            height: 250px;
+            overflow-y: auto;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+            border: 1px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .terminal-line {
+            margin-bottom: 3px;
+            line-height: 1.3;
+        }
+        
+        .prompt {
+            color: var(--secondary);
+        }
+        
+        .command {
+            color: var(--accent);
+        }
+        
+        .output {
+            color: var(--primary);
+        }
+        
+        .framework-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            margin-top: 5px;
+        }
+        
+        .framework-react { background: rgba(97, 218, 251, 0.2); color: #61dafb; }
+        .framework-vue { background: rgba(76, 175, 80, 0.2); color: #42b883; }
+        .framework-angular { background: rgba(221, 75, 57, 0.2); color: #dd0031; }
+        .framework-node { background: rgba(108, 153, 56, 0.2); color: #68a063; }
+        .framework-python { background: rgba(56, 114, 175, 0.2); color: #3572a5; }
+        .framework-express { background: rgba(108, 153, 56, 0.2); color: #68a063; }
+        .framework-flask { background: rgba(56, 114, 175, 0.2); color: #3572a5; }
+
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--primary);
+            border-radius: 4px;
+            color: var(--primary);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        
+        .status-running-dot {
+            background: #00ff00;
+            box-shadow: 0 0 5px #00ff00;
+        }
+        
+        .status-stopped-dot {
+            background: #ff4d4d;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .loading-spinner {
+            display: none;
+            margin: 20px auto;
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(0,0,0,0.1);
+            border-top: 4px solid var(--secondary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        .project-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: rgba(0, 255, 0, 0.7);
+        }
+
+        .stats-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stats-value {
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        .stats-label {
+            font-size: 0.7rem;
+        }
+
+        /* Add scanline effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                to bottom,
+                transparent 0px,
+                rgba(0, 0, 0, 0.1) 1px,
+                rgba(0, 0, 0, 0.1) 2px,
+                transparent 3px
+            );
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        /* Add subtle noise effect */
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII='); /* Small transparent pixel */
+            opacity: 0.05;
+            pointer-events: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">CODESANDBOX PORTFOLIO</div>
+            <div class="nav-links">
+                <a href="#" class="nav-link" data-tab="projects"><i class="fas fa-th-large"></i> Projects</a>
+                <a href="#" class="nav-link" data-tab="containers"><i class="fas fa-cube"></i> Containers</a>
+                <a href="#" class="nav-link" data-tab="ai"><i class="fas fa-brain"></i> AI Analysis</a>
+                <a href="#" class="nav-link" data-tab="settings"><i class="fas fa-cog"></i> Settings</a>
+                <button id="install-btn" style="display:none; background: var(--secondary); color: var(--bg); border: none; padding: 0.5rem 1rem; border-radius: 20px; cursor: pointer; font-family: 'Courier New', Courier, monospace;">
+                    <i class="fas fa-download"></i> Install App
+                </button>
+            </div>
+        </div>
+        
+        <div class="panel projects-panel">
+            <div class="panel-title">PROJECT DASHBOARD</div>
+            <input type="text" class="search-bar" id="search-projects" placeholder="Search projects...">
+            
+            <div class="loading-spinner" id="projects-loading" style="display: none;"></div>
+            <div id="projects-error" style="display: none; color: #ff4d4d; text-align: center; padding: 20px;">
+                Failed to load projects. Check console for details.
+            </div>
+            <ul class="project-list" id="projects-list">
+                <!-- Projects will be populated by JavaScript -->
+            </ul>
+        </div>
+        
+        <div class="panel right-panel">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="ai"><i class="fas fa-brain"></i> AI Insights</button>
+                <button class="tab-btn" data-tab="info"><i class="fas fa-info-circle"></i> Project Info</button>
+            </div>
+            
+            <div class="tab-content active" id="ai-tab">
+                <div class="ai-analysis">
+                    <div class="panel-title">AI Project Analysis</div>
+                    <div class="ai-content">
+                        <p>Based on recent activity, the <span class="ai-highlight">projects</span> show potential for optimization. Our AI suggests:</p>
+                        <ul>
+                            <li>Optimize asset loading times by 40% using compression</li>
+                            <li>Implement lazy loading for dashboard components</li>
+                            <li>Add WebAssembly module for complex calculations</li>
+                        </ul>
+                        <p>Predicted impact: <span class="ai-highlight">+35% performance improvement</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="info-tab">
+                <div class="info-panel">
+                    <div class="panel-title">PROJECT DETAILS</div>
+                    <div class="readme-content" id="readme-content">
+                        Select a project to view details.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="terminal">
+                <div class="panel-title">SYSTEM TERMINAL</div>
+                <div class="terminal-content" id="terminal-content">
+                    <div class="terminal-line"><span class="prompt">$</span> <span class="command">system status</span></div>
+                    <div class="terminal-line output">> All systems operational</div>
+                    <div class="terminal-line output">> Loading projects...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Register service worker early
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js', { scope: '/' })
+                .then(reg => console.log('Service Worker registered', reg))
+                .catch(err => console.error('Service Worker registration failed', err));
+        }
+        
+        // Install prompt handling
+        let deferredPrompt;
+        const installBtn = document.getElementById('install-btn');
+        
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            installBtn.style.display = 'block';
+        });
+        
+        installBtn.addEventListener('click', async () => {
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                installBtn.style.display = 'none';
+            }
+            deferredPrompt = null;
+        });
+        
+        // Navigation handling
+        document.querySelectorAll('.nav-link[data-tab]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const tab = link.getAttribute('data-tab');
+                // In a real app, this would switch to the specific tab view
+                addTerminalOutput(`Switched to ${tab} view`);
+            });
+        });
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            // Store projects data for later use
+            let projectsData = [];
+            
+            // Function to add output to the terminal
+            function addTerminalOutput(text) {
+                const terminal = document.getElementById('terminal-content');
+                const now = new Date().toLocaleTimeString();
+                const line = document.createElement('div');
+                line.className = 'terminal-line';
+                line.innerHTML = `<span class="output">[${now}] ${text}</span>`;
+                terminal.appendChild(line);
+                terminal.scrollTop = terminal.scrollHeight;
+            }
+            
+            // Function to update terminal with project description
+            function updateTerminalWithProject(project) {
+                addTerminalOutput(`Selected project: ${project.name}`);
+                addTerminalOutput(`Type: ${project.type || 'unknown'}`);
+                addTerminalOutput(`Status: ${project.status || 'unknown'}`);
+                if (project.port) {
+                    addTerminalOutput(`Port: ${project.port}`);
+                }
+                if (project.description) {
+                    addTerminalOutput(`Description: ${project.description.substring(0, 100)}...`);
+                }
+            }
+            
+            function renderProjects(projects) {
+                // Store projects data for later use
+                projectsData = projects;
+                
+                const list = document.getElementById('projects-list');
+                list.innerHTML = ''; // Clear existing
+                
+                if (projects.length === 0) {
+                    const li = document.createElement('li');
+                    li.className = 'project-item';
+                    li.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%;">No projects found</div>';
+                    list.appendChild(li);
+                } else {
+                    projects.forEach((project, index) => {
+                        const li = document.createElement('li');
+                        li.className = 'project-item';
+                        li.setAttribute('data-project-index', index);
+                        
+                        // Determine framework icon
+                        let frameworkIcon = 'fa-code';
+                        if (project.type) {
+                            const typeLower = project.type.toLowerCase();
+                            if (typeLower.includes('react')) frameworkIcon = 'fa-react';
+                            else if (typeLower.includes('vue')) frameworkIcon = 'fa-vuejs';
+                            else if (typeLower.includes('angular')) frameworkIcon = 'fa-angular';
+                            else if (typeLower.includes('node')) frameworkIcon = 'fa-node-js';
+                            else if (typeLower.includes('python')) frameworkIcon = 'fa-python';
+                        }
+                        
+                        li.innerHTML = `
+                            <div class="project-preview">
+                                ${project.preview_image ? 
+                                    `<img src="${project.preview_image}" alt="${project.name} preview">` : 
+                                    `<div class="placeholder-icon"><i class="fas ${frameworkIcon}"></i></div>`
+                                }
+                            </div>
+                            <div class="project-header">
+                                <div class="project-name">${project.name}</div>
+                                <div class="project-framework-icon">
+                                    <i class="fab ${frameworkIcon}" title="${project.type || 'unknown'}" style="color: var(--primary);"></i>
+                                </div>
+                            </div>
+                            <div class="project-description">${project.description || 'No description available'}</div>
+                            <div class="project-meta">
+                                <span class="project-status status-${project.status || 'stopped'}">
+                                    <span class="status-indicator status-${project.status}-dot"></span>
+                                    ${project.status || 'stopped'}
+                                </span>
+                                <span>port:${project.port || 'N/A'}</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="action-btn open-btn" data-url="/projects/${project.path}">
+                                    <i class="fas fa-external-link-alt"></i> Open
+                                </button>
+                                <button class="action-btn launch-btn" data-project="${project.path}">
+                                    <i class="fas fa-play"></i> ${project.status === 'running' ? 'Stop' : 'Launch'}
+                                </button>
+                            </div>
+                            <div class="project-stats">
+                                <div class="stats-item">
+                                    <div class="stats-value">${project.last_modified ? new Date(project.last_modified * 1000).toLocaleDateString() : 'N/A'}</div>
+                                    <div class="stats-label">Modified</div>
+                                </div>
+                                <div class="stats-item">
+                                    <div class="stats-value">${project.type || 'N/A'}</div>
+                                    <div class="stats-label">Type</div>
+                                </div>
+                            </div>
+                        `;
+                        list.appendChild(li);
+                    });
+                }
+                
+                // Add event listeners to open buttons
+                document.querySelectorAll('.open-btn').forEach(button => {
+                    button.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const url = button.getAttribute('data-url');
+                        window.open(url, '_blank');
+                    });
+                });
+                
+                // Add event listeners to launch buttons
+                document.querySelectorAll('.launch-btn').forEach(button => {
+                    button.addEventListener('click', async (e) => {
+                        e.stopPropagation();
+                        const projectPath = button.getAttribute('data-project');
+                        
+                        // Find the project in projectsData
+                        const project = projectsData.find(p => p.path === projectPath);
+                        if (!project) return;
+                        
+                        if (project.status === 'running') {
+                            // Stop the project
+                            try {
+                                const response = await fetch('/release-port', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    },
+                                    body: JSON.stringify({
+                                        port: project.port,
+                                        project_path: projectPath
+                                    })
+                                });
+                                
+                                if (response.ok) {
+                                    const data = await response.json();
+                                    if (data.status === 'success') {
+                                        // Update the UI
+                                        button.innerHTML = '<i class="fas fa-play"></i> Launch';
+                                        button.classList.remove('stop-btn');
+                                        button.classList.add('launch-btn');
+                                        // Update project status
+                                        project.status = 'stopped';
+                                        // Update status indicator
+                                        const statusElement = button.closest('.project-item').querySelector('.project-status');
+                                        statusElement.className = 'project-status status-stopped';
+                                        statusElement.innerHTML = '<span class="status-indicator status-stopped-dot"></span> stopped';
+                                    }
+                                }
+                            } catch (error) {
+                                console.error('Error stopping project:', error);
+                                addTerminalOutput(`Error stopping project: ${error.message}`);
+                            }
+                        } else {
+                            // Launch the project
+                            try {
+                                const response = await fetch(`/launch?project=${encodeURIComponent(projectPath)}`, {
+                                    method: 'GET'
+                                });
+                                
+                                if (response.ok) {
+                                    const url = await response.text();
+                                    // Update the UI
+                                    button.innerHTML = '<i class="fas fa-stop"></i> Stop';
+                                    button.classList.remove('launch-btn');
+                                    button.classList.add('stop-btn');
+                                    // Update project status
+                                    project.status = 'running';
+                                    // Update status indicator
+                                    const statusElement = button.closest('.project-item').querySelector('.project-status');
+                                    statusElement.className = 'project-status status-running';
+                                    statusElement.innerHTML = '<span class="status-indicator status-running-dot"></span> running';
+                                    addTerminalOutput(`Started project: ${project.name} at ${url}`);
+                                } else {
+                                    addTerminalOutput(`Failed to start project: ${response.status}`);
+                                }
+                            } catch (error) {
+                                console.error('Error launching project:', error);
+                                addTerminalOutput(`Error launching project: ${error.message}`);
+                            }
+                        }
+                    });
+                });
+                
+                // Add event listeners to project items for showing description
+                document.querySelectorAll('.project-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        // Don't trigger if clicking on buttons
+                        if (!e.target.closest('.action-btn')) {
+                            const projectIndex = parseInt(item.getAttribute('data-project-index'));
+                            const project = projectsData[projectIndex];
+                            if (project) {
+                                updateTerminalWithProject(project);
+                                
+                                // Display project description
+                                document.getElementById('readme-content').textContent = project.description || 'No description available.';
+                                
+                                // Switch to info tab
+                                document.querySelector('[data-tab="info"]').click();
+                            }
+                        }
+                    });
+                });
+            }
+        
+            // First try network, then cache if offline
+            document.getElementById('projects-loading').style.display = 'block';
+            
+            fetch('/projects.json')
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response not OK');
+                    return response.json();
+                })
+                .then(projects => {
+                    renderProjects(projects);
+                    document.getElementById('projects-loading').style.display = 'none';
+                    addTerminalOutput(`Loaded ${projects.length} projects`);
+                })
+                .catch(networkError => {
+                    console.error('Network failed:', networkError);
+                    addTerminalOutput(`Network error: ${networkError.message}`);
+                    
+                    // Try to get from cache as fallback
+                    if ('caches' in window) {
+                        caches.open('dashboard-v2')
+                            .then(cache => cache.match('/projects.json'))
+                            .then(response => {
+                                if (response) {
+                                    return response.json();
+                                } else {
+                                    return [];
+                                }
+                            })
+                            .then(projects => {
+                                renderProjects(projects);
+                                document.getElementById('projects-loading').style.display = 'none';
+                                addTerminalOutput(`Loaded ${projects.length} projects from cache`);
+                            })
+                            .catch(cacheError => {
+                                console.error('Cache error:', cacheError);
+                                document.getElementById('projects-loading').style.display = 'none';
+                                document.getElementById('projects-error').style.display = 'block';
+                                addTerminalOutput(`Cache error: ${cacheError.message}`);
+                            });
+                    } else {
+                        document.getElementById('projects-loading').style.display = 'none';
+                        document.getElementById('projects-error').style.display = 'block';
+                        addTerminalOutput('No network and no cache available');
+                    }
+                });
+            
+            // Add tab switching
+            document.querySelectorAll('.tab-btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                    
+                    button.classList.add('active');
+                    const tabId = button.getAttribute('data-tab');
+                    document.getElementById(`${tabId}-tab`).classList.add('active');
+                });
+            });
+            
+            // Add search functionality
+            const searchInput = document.getElementById('search-projects');
+            searchInput.addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase();
+                
+                document.querySelectorAll('.project-item').forEach(item => {
+                    const projectName = item.querySelector('.project-name').textContent.toLowerCase();
+                    if (projectName.includes(searchTerm)) {
+                        item.style.display = 'flex';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
